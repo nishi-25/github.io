@@ -1,0 +1,222 @@
+/* exsample ------------------------------------------ */
+/* ------------------------------------------------- */
+
+
+/* body ------------------------------------------ */
+body {
+    font-family: 'Niramit', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+/* ----------------------------------------------- */
+/* header ------------------------------------------ */
+
+header {
+    background: #2FABD2;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header-title {
+    color: white;
+    margin: 10px;
+}
+
+/* ------------------------------------------------- */
+/* section1 ------------------------------------------ */
+
+.slide1-area {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide1-description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: -80px;
+}
+
+#slide1-title {
+    font-size: 150px;
+    margin: 10px 10px 10px 10px;
+}
+
+#slide1-prag {
+    font-size: 50px;
+}
+
+.slide1-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+}
+
+/* ------------------------------------------------- */
+/* section2 ------------------------------------------ */
+.slide2-area {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide2-description {
+    font-size: 30px;
+    margin: 0px 0px 30px 30px;
+}
+
+
+#slide2-parag1:hover {
+    font-size: 50px;
+    background: #2FABD2;
+    color: white;
+}
+
+#slide2-parag2:hover {
+    font-size: 50px;
+    background: #2FABD2;
+    color: white;
+}
+
+#slide2-parag3:hover {
+    font-size: 50px;
+    background: #2FABD2;
+    color: white;
+}
+
+#slide2-parag4:hover {
+    font-size: 50px;
+    background: #2FABD2;
+    color: white;
+}
+
+#slide2-parag5:hover {
+    font-size: 50px;
+    background: #2FABD2;
+    color: white;
+}
+
+#slide2-parag6:hover {
+    font-size: 50px;
+    background: #2FABD2;
+    color: white;
+}
+
+#slide2-parag7:hover {
+    font-size: 50px;
+    background: #2FABD2;
+    color: white;
+}
+
+/* --------------------------------------------------- */
+/* section3 ------------------------------------------ */
+.slide3-area {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0%;
+    width: 100%;
+    height: 100vh;
+}
+
+.slide3-description {
+    font-size: 23px;
+    margin: 10px 0 0 30px;
+}
+
+.slide3-inner-img1 {
+    width: 60%;
+    height: 70%;
+    margin: auto;
+}
+
+.slide3-img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.slide3-img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.slide3-img3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -3%;
+}
+
+span {
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.slide3-childarea1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+.slide3-childarea2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.slide3-childarea3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* --------------------------------------------------- */
+/* section4 ------------------------------------------ */
+
+/* --------------------------------------------------- */
+/* section5 ------------------------------------------ */
+.slide5-no1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* --------------------------------------------------- */
+/* section6 ------------------------------------------ */
+/* --------------------------------------------------- */
+/* section7 ------------------------------------------ */
+/* --------------------------------------------------- */
+/* section8 ------------------------------------------ */
+/* --------------------------------------------------- */
+/* section9 ------------------------------------------ */
