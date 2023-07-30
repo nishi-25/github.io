@@ -12,16 +12,14 @@
 </head>
 
 <body>
-    <header>
-        <h1 class="header-title">FND-18 Final Presentation</h1>
-        <h2 class="header-title">Speaker : Daiki Nishioka</h2>
-    </header>
-
     <section class="slide1">
         <div class="slide1-area">
+            <header>
+                <h1 class="header-title">FND-18 Final Presentation Speaker: DAIKI NISHIOKA</h1>
+            </header>
             <div class="slide1-description">
                 <h2 id="slide1-title"><ion-icon name="send-outline"></ion-icon> Let's Go</h2>
-                <p id="slide1-prag">これまでの基礎コースで <br>
+                <p id="slide1-parag">これまでの基礎コースで <br>
                     学んできたことを発表します</p>
             </div>
             <div class="slide1-img">
@@ -32,13 +30,15 @@
     </section>
     <section class="slide2">
         <div class="slide2-area">
+            <header class="slide3-header">
+                <h1 id="slide3-h1">アジェンダ</h1>
+            </header>
             <div class="slide2-description">
                 <p class="slide2-parag" id="slide2-parag1">なぜ基礎コースを受講したのか</p>
                 <p class="slide2-parag" id="slide2-parag2">基礎コースを受けてみて</p>
-                <p class="slide2-parag" id="slide2-parag3">演習課題の取り組みについて</p>
+                <p class="slide2-parag" id="slide2-parag3">演習課題で結構時間使ったところ</p>
                 <p class="slide2-parag" id="slide2-parag4">やってみたかったこと全部やってみた <ion-icon name="rocket-outline">
                     </ion-icon></p>
-                <p class="slide2-parag" id="slide2-parag5">BIレポートツール</p>
                 <p class="slide2-parag" id="slide2-parag6">今後やりたいこと</p>
                 <p class="slide2-parag" id="slide2-parag7">最後に</p>
             </div>
@@ -97,53 +97,161 @@
             <header class="slide4-header">
                 <h1 id="slide4-h1">基礎コースを受けてみて</h1>
             </header>
-            <div class="slide3-childarea1"></div>
+            <div class="slide4-description">
+                <ol class="slide4-ul">
+                    <li>一つ目の学び
+                        <ul>
+                            <li>HTML/CSS/Javascriptの連携方法・書き方を知ることができた</li>
+                            <li>演習問題を通してコードスタイルやアルゴリズム実装力を鍛えることができた</li>
+                        </ul>
+                    </li>
+                    <li>二つ目の学び
+                        <ul>
+                            <li>Javascript特有のライブラリやメソッドを多く知ることができた<br>
+                                ただし、よく理解せずに使うとデバッグが大変ということも実感
+                            </li>
+                        </ul>
+                    </li>
+                    <li>三つ目の学び
+                        <ul>
+                            <li>ペアプロを通してコミュニケーションの大切さを実感<br>
+                                言語化して伝える難しさと自分の伝える力のなさに気づくことができました
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                <p id="slide4-parag">多くの学びや気づきがあり、成長させていただいた２０日間でした。ありがとうございました。</p>
+            </div>
         </div>
     </section>
     <section class="slide5">
         <div class="slide5-area">
             <header class="slide5-header">
-                <h1 id="slide5-h1">やってみたいことやってみた① WEBサイトの動き</h1>
+                <h1 id="slide5-h1">演習課題で結構時間使ったところ</h1>
             </header>
             <div class="slide5-childarea">
-                <div class="slide5-no1">
-                    <section class="slide5-section1">セクション1
-                        <img src="https://cdn.pixabay.com/photo/2018/08/15/13/10/galaxy-3608029_1280.jpg">
-                    </section>
-                    <section class="slide5-section2">セクション2
-                        <img src="https://cdn.pixabay.com/photo/2017/10/10/07/48/hills-2836301_1280.jpg">
-                    </section>
-                    <section class="slide5-section3">セクション3
-                        <img src="https://cdn.pixabay.com/photo/2016/12/16/15/25/christmas-1911637_1280.jpg">
-                    </section>
+                <div class="slide5-screen1">
+                    <p class="slide5-parag">7/18 オブジェクト入門 応用問題<br>
+                        2. 配列に入ったルートオブジェクトをコスト順に<br>
+                        並べる関数getSortedByCostを宣言してください</p>
+                    <img class="slide5-img1" src="object_begin.png">
                 </div>
-                <div class="slide5-no2"></div>
-                <div class="slide5-no3"></div>
+                <div class="slide5-screen2">
+                    <img class="slide5-img2" src="mycode.png">
+                </div>
+                <div class="slide5-screen3">
+                    <code>
+                        function getSortedByCost(object) {
+                            const routeObj = [...object]
+                            const result = routeObj.sort((a, b) => a.cost - b.cost);
+                            return result;
+                          }
+                    </code>
+
+                </div>
             </div>
         </div>
     </section>
     <section class="slide6">
         <div class="slide6-area">
             <header class="slide6-header">
-                <h1 id="slide6-h1">やってみたいことやってみた② WEBアプリ</h1>
+                <h1 id="slide6-h1">やってみたいことやってみた① WEBサイトの動き</h1>
             </header>
-            <div class="slide6-childarea1"></div>
+            <div class="slide6-childarea">
+                <iframe class="frame" src="parallax.html" width="500" height="600"></iframe>
+                <iframe class="frame" src="fade-in.html" width="500" height="600"></iframe>
+                <iframe class="frame" src="slide.html" width="500" height="600"></iframe>
+            </div>
         </div>
-
     </section>
     <section class="slide7">
         <div class="slide7-area">
             <header class="slide7-header">
-                <h1 id="slide7-h1">やってみたいことやってみた③ Chrome拡張機能</h1>
+                <h1 id="slide7-h1">やってみたいことやってみた② WEBアプリ＜電卓＞</h1>
             </header>
-            <div class="slide7-childarea1"></div>
         </div>
     </section>
-
-
-
-    <button class="slide-button" id="slide-pre" onclick="prevSlide()">戻る</button>
-    <button class="slide-button" id="slide-next" onclick="nextSlide()">次へ</button>
+    <section class="slide8">
+        <div class="slide8-area">
+            <header class="slide8-header">
+                <h1 id="slide8-h1">やってみたいことやってみた③ Chrome拡張機能</h1>
+            </header>
+            <div class="slide8-childarea">
+                <div class="slide8-screen1">
+                    <img class="slide8-img"
+                        src="https://cdn.pixabay.com/photo/2016/04/13/14/27/google-chrome-1326908_1280.png">
+                    <img class="slide8-img" src="stretch.png">
+                    <p class="slide8-parag">設定した時間にストレッチの通知を促す拡張機能作ってみました</p>
+                </div>
+                <div class="slide8-screen2">
+                    <p class="slide8-parag">ポイント①：<br>
+                        いつも使用しているHTML/CSS/Javascriptの構成で作成できました。<br>
+                        ただし、manifest.jsonが新しく出てくるのでjson形式を少し覚える必要がありました。
+                    </p>
+                    <p class="slide8-parag">ポイント②：<br>
+                        拡張機能のポップアップが閉じても動作するように<br>
+                        background.jsを使用してバックグラウンドで動作するように実現してます。
+                    </p>
+                </div>
+                <div class="slide8-screen2"></div>
+                <div class="slide8-screen3"></div>
+            </div>
+        </div>
+    </section>
+    <section class="slide9">
+        <div class="slide9-area">
+            <header class="slide9-header">
+                <h1 id="slide9-h1">今後やってみたいこと</h1>
+            </header>
+            <div class="slide9-description">
+                <ol class="slide9-ul">
+                    <li>やってみたいこと①
+                        <ul>
+                            <li>BIツール作成<br>
+                                今回学んだフロントエンドスキルを活かして、仕事に使えるBIツール作成を目指します</li>
+                    </li>
+                    </ul>
+                    </li>
+                    <li>やってみたいこと②
+                        <ul>
+                            <li>Javascriptスキル向上<br>
+                                Javascriptのバックエンド側のNode.js、Next.jsやまだ使ったことのない<br>
+                                React、jQueryライブラリ、スマホアプリが作れるReact Nativeを触って、<br>
+                                Javascriptをもっと使いこなせるようになりたい
+                            </li>
+                        </ul>
+                    </li>
+                    <li>やってみたいこと③
+                        <ul>
+                            <li>WEBデザインを極める<br>
+                                プレゼン資料を作成する中でWEBデザインを考えるのがめちゃめちゃ楽しいと思いました！<br>
+                                国家資格の<a href="https://www.webdesign.gr.jp/"></a>WEBデザイン技能検定もあること知ったので<br>
+                                まずは３級合格を目指してWEBデザインをこれからも勉強していきたいと思います。
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section class="slide10">
+        <div class="slide10-area">
+            <header class="slide10-header">
+                <h1 id="slide10-h1">最後に</h1>
+            </header>
+            <div class="slide10-description">
+                <video id="slide10-video"
+                    src="https://cdn.pixabay.com/vimeo/702640285/114978.mp4?width=640&hash=af6c2ecfc4ce4e197245c3e42e1479abf9ab32e7"
+                    autoplay loop muted></video>
+                <div class="text">
+                    <p>多くの気づきとプログラミングスキルが向上した貴重な２０日間でした<br>
+                        これからもプログラミングスキルとWEBデザインスキルを勉強し続けます！！
+                        ２０日間ありがとうございました！！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
